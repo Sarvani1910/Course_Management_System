@@ -1,0 +1,53 @@
+/* CourseDropdown.css */
+.course-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    position: relative; /* Needed for absolute positioning of dropdown arrow */
+  }
+  
+  .search-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dropdown-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #070707;
+  }
+  
+  .course-list {
+    max-height: 400px;
+    overflow-y: auto; /* Show scrollbar when needed */
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .course-list.hide {
+    display: none; /* Hide list */
+  }
+  
+  .course-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .course-item:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  

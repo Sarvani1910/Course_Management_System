@@ -1,0 +1,57 @@
+.student-dashboard {
+    padding: 20px;
+  }
+  
+  .course-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .course-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .course-thumbnail {
+    width: 150px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .course-info {
+    flex: 1;
+  }
+  
+  .progress-container {
+    margin-top: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }

@@ -1,0 +1,27 @@
+.course-details {
+    padding: 20px;
+  }
+  
+  .course-details h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .course-details p {
+    margin: 5px 0;
+  }
+  
+  .course-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .course-details li {
+    margin: 5px 0;
+  }
+  
+  .thumbnail {
+    max-width: 150px;
+    max-height: 150px;
+    margin-bottom: 20px;
+  }

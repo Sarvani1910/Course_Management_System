@@ -1,0 +1,29 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "name": "React for Beginners",
+        "instructor": "John Doe",
+        "description": "Learn the basics of React",
+        "enrollmentStatus": "Open",
+        "duration": "4 weeks",
+        "schedule": "Mon-Wed-Fri",
+        "location": "Online",
+        "prerequisites": "Basic JavaScript",
+        "syllabus": ["Intro to React", "Components", "State and Props", "Hooks"]
+      },
+      {
+        "id": 2,
+        "name": "Advanced Node.js",
+        "instructor": "Jane Smith",
+        "description": "Advanced concepts in Node.js",
+        "enrollmentStatus": "Closed",
+        "duration": "6 weeks",
+        "schedule": "Tue-Thu",
+        "location": "In-Person",
+        "prerequisites": "Basic Node.js",
+        "syllabus": ["Event Loop", "Streams", "Cluster Mode", "Testing"]
+      }
+    ]
+  }
+  

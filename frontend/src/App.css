@@ -1,0 +1,76 @@
+.student-dashboard {
+  padding: 20px;
+}
+
+.course-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.course-thumbnail {
+  width: 150px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.course-info {
+  flex: 1;
+}
+
+.progress-container {
+  margin-top: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* src/index.css or src/App.css */
+html, body {
+  height: 100%; /* Ensure full height */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent all overflow */
+}
+
+.App {
+  height: 100%; /* Ensure App takes full height */
+  overflow: hidden; /* Prevent overflow */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
