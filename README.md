@@ -3,3 +3,4 @@ Then, install the required modules by running npm install, which includes nodemo
 Once the installation is complete, start the frontend server with npm start. 
 Next, navigate to the backend directory using the command cd ../backend and start the backend server by running npm start. 
 This will set up both the frontend and backend servers for the application.
+![Screenshot (39)](https://github.com/user-attachments/assets/7828d2e1-4d92-4790-8134-d3a262b4cfb6)
